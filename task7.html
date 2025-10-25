@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Information Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 60%;
+      background-color: white;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #007BFF;
+      color: white;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #e0f0ff;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Email</th>
+    </tr>
+    <tr>
+      <td>eyu Alemu</td>
+      <td>21</td>
+      <td>eyu@example.com</td>
+    </tr>
+    <tr>
+      <td>Samuel Bekele</td>
+      <td>23</td>
+      <td>samuel@example.com</td>
+    </tr>
+    <tr>
+      <td>Hanna Tesfaye</td>
+      <td>22</td>
+      <td>hanna@example.com</td>
+    </tr>
+  </table>
+
+</body>
+</html>
